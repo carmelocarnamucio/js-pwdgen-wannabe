@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.white {
+  color: white;
+}
+
+.red {
+  color: red;
+}
+
+.container-header,
+.container-main,
+.container-img {
+  display: flex;
+  padding-top: 30px;
+}
+
+.container-header {
+  justify-content: center;
+}
+
+.container-main {
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-header h1 {
+  font-size: 80px;
+}
+
+.container-main h2 {
+  font-size: 50px;
+}
+
+.worst {
+  width: 500px;
+  position: fixed;
+  right: 450px;
+}
